@@ -1,0 +1,228 @@
+body{
+    background-color: #3db7e3;
+
+}
+.navbar {
+    background-color:#001276 ;
+   
+  }
+  .navbar .nav-link {
+    color: rgb(253, 253, 253) !important;
+  }
+  
+  .navbae .nav-link:hover {
+    color: rgb(253, 253, 253) !important;
+  }
+
+  
+  .hero-section {
+    background-image: url('Assets/home\ 1.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    height: 70vh; /* Adjust height as needed */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    color: #3db7e3; /* Text color */
+    text-align: center; /* Center text */
+  }
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+  }
+  .hero-content h1 {
+    font-size: 3rem; /* Adjust as needed */
+  }
+  .hero-content p {
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+  .hero-content .btn {
+    padding: 10px 20px; /* Adjust button size */
+    font-size: 1.2rem; /* Adjust button text size */
+  }
+
+
+ #feature.card body {
+    border-radius: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  /* Default Colors */
+  .card-bg-feature-1 {
+    background-color: #f1f8e9; /* Light Green */
+    color: #33691e;
+  }
+  .card-bg-feature-2 {
+    background-color: #fff9c4; /* Light Yellow */
+    color: #f57f17;
+  }
+  .card-bg-feature-3 {
+    background-color: #fbe9e7; /* Light Peach */
+    color: #d84315;
+  }
+  /* Hover Colors */
+  .card-bg-feature-1:hover {
+    background-color: #aed581; /* Darker Green on Hover */
+  }
+  .card-bg-feature-2:hover {
+    background-color: #ffeb3b; /* Yellow on Hover */
+  }
+  .card-bg-feature-3:hover {
+    background-color: #ffab91; /* Darker Peach on Hover */
+  }
+  .feature-card img {
+    border-radius: 10px;
+    max-height: 150px;
+    margin-bottom: 15px;
+  }
+
+  .product-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card-bg-1 {
+    background-color:  #ffeb3b; /* Light Blue */
+    color: #004d40;
+  }
+  .card-bg-2 {
+    background-color: burlywood; /* Yellow */
+    color: #795548;
+  }
+  .card-bg-3 {
+    background-color: #e7ecee; /* Light Green */
+    color: #1b5e20;
+  }
+  .card-bg-4 {
+    background-color: #ff8a80; /* Light Red */
+    color: #b71c1c;
+  }
+  .card-bg-5 {
+    background-color: #b3e5fc; /* Light Blue */
+    color: #01579b;
+  }
+  .card-bg-6 {
+    background-color:  rgb(131, 192, 131); /* Peach */
+    color: #e65100;
+  }
+  .card-body img {
+    border-radius: 10px;
+    max-height: 150px;
+  }
+
+    #testimonials {
+        background-color: #001276;
+    }
+    #testimonials h2 {
+        color: #333;
+        margin-bottom: 40px;
+    }
+    .testimonial-card {
+        background-color: #3de0eb;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .testimonial-card p {
+        font-style: italic;
+        color: #111112;
+        margin-bottom: 10px;
+    }
+    .testimonial-card h5 {
+        color: #0b29d4;
+        font-weight: bold;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #0b29d4;
+        border-radius: 50%;
+    }
+     .pricing-section {
+      background-color: #3db7e3;
+      padding: 50px 0;
+    }
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .buy-now-btn {
+      background-color: #3de0eb; /* Customize button color */
+      color: white;
+    }
+    .buy-now-btn:hover {
+      background-color: #3de0eb; /* Darker shade for hover effect */
+    }
+      
+      .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .buy-now-btn {
+        background-color: #001276; /* Customize button color */
+        color: white;
+      }
+      .buy-now-btn:hover {
+        background-color: #2e7d32; /* Darker shade for hover effect */
+      }
+  
+
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#contact {
+    background-color: #f8f9fa;
+}
+#contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+#contact p {
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+.form-control {
+    border-radius: 10px;
+}
+.btn-primary {
+    background-color: #001276;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #c65a1e;
+}
+footer {
+    background-color: #001276;
+    color: white;
+}
+footer p, footer a {
+    color: white;
+}
+footer a:hover {
+    color: #ffc107;
+}
